@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.splashscreen.MainActivity">
+
+    <item
+        android:id="@+id/action_first_fragment"
+        android:title="First Fragment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_second_fragment"
+        android:title="Second Fragment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_third_fragment"
+        android:title="Third Fragment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_forth_fragment"
+        android:title="Fourth Fragment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_fifth_fragment"
+        android:title="Fifth Fragment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sixth_fragment"
+        android:title="Sixth Fragment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

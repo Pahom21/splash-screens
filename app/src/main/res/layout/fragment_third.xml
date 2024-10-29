@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ThirdFragment">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/textview_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the Third Fragment"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+
+    <!-- Button to Go to Forth Fragment -->
+    <Button
+        android:id="@+id/button_to_forth_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Forth"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to Go Back to Second Fragment -->
+    <Button
+        android:id="@+id/button_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Second"
+        android:layout_marginTop="24dp" />
+
+    <!-- Button to Go Back to First Fragment -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to First"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
